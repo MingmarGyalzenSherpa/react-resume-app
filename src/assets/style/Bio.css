@@ -1,0 +1,46 @@
+.bio {
+  width: 90%;
+  margin: 0.5rem auto;
+  min-height: 80vh;
+  display: flex;
+}
+
+.bio__img-wrapper {
+  width: 30%;
+  height: 100%;
+}
+
+.bio__img-wrapper img {
+  width: 100%;
+  aspect-ratio: 2/3;
+  object-fit: cover;
+}
+
+.bio__description {
+  background-color: rgb(183, 180, 180);
+  color: black;
+  margin-left: 1rem;
+  width: 70%;
+  padding: 3rem;
+}
+
+.bio__description > h2 {
+  font-size: 2rem;
+  font-weight: 500;
+  color: lightgreen;
+}
+
+.bio__description > h3 {
+  font-size: 3rem;
+  font-weight: 600;
+  margin-bottom: 2rem;
+}
+
+.bio__description--about {
+  font-size: 2rem;
+  /* letter-spacing: 0.1rem; */
+}
+
+.bio__description-btn {
+  margin-top: 2rem;
+}

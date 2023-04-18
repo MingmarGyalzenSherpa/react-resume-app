@@ -1,0 +1,12 @@
+.nav {
+  width: 90%;
+  margin: 0 auto;
+  padding: 3rem 4rem 1rem;
+  display: flex;
+  justify-content: space-between;
+}
+
+.nav__logo {
+  font-size: 3.5rem;
+  letter-spacing: 0.4rem;
+}
